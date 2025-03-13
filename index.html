@@ -3,163 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jantung Koroner</title>
+    <title>Penyakit Jantung Koroner</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #d32f2f;
-            color: white;
-            padding: 20px;
-        }
-        section {
-            background: white;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            width: 80%;
-        }
-        img {
-            margin-top: 10px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-        }
-        th {
-            background-color: #d32f2f;
-            color: white;
-        }
-        footer {
-            background-color: #222;
-            color: white;
-            padding: 20px;
-            margin-top: 20px;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo Jantung Koroner" width="100">
-        <h1>Pengetahuan Penyakit Jantung Koroner</h1>
+        <h1>Penyakit Jantung Koroner</h1>
     </header>
 
     <section>
         <h2>Definisi</h2>
-        <p>Penyakit jantung koroner (PJK) adalah kondisi di mana pembuluh darah koroner mengalami penyempitan akibat penumpukan plak, yang dapat menyebabkan serangan jantung.</p>
+        <p>Penyakit jantung koroner adalah kondisi ketika pembuluh darah yang menyuplai jantung mengalami penyempitan atau penyumbatan.</p>
     </section>
 
     <section>
-        <h2>Gejala</h2>
+        <h2>Gejala dan Tanda-tanda</h2>
         <ul>
             <li>Nyeri dada (angina)</li>
             <li>Sesak napas</li>
-            <li>Kelelahan</li>
-            <li>Detak jantung tidak teratur</li>
+            <li>Mudah lelah</li>
+            <li>Pusing atau pingsan</li>
         </ul>
     </section>
 
     <section>
-        <h2>Cara Mencegah</h2>
+        <h2>Pencegahan</h2>
         <ul>
-            <li>Menghindari makanan tinggi lemak dan kolesterol</li>
-            <li>Rajin berolahraga</li>
-            <li>Menjaga berat badan ideal</li>
-            <li>Mengelola stres</li>
+            <li>Mengonsumsi makanan sehat</li>
+            <li>Olahraga teratur</li>
+            <li>Hindari merokok</li>
+            <li>Kelola stres dengan baik</li>
         </ul>
     </section>
 
     <section>
         <h2>Faktor Risiko</h2>
         <ul>
-            <li>Merokok</li>
             <li>Hipertensi</li>
-            <li>Kadar kolesterol tinggi</li>
-            <li>Kurang aktivitas fisik</li>
+            <li>Diabetes</li>
+            <li>Kolesterol tinggi</li>
+            <li>Gaya hidup tidak sehat</li>
         </ul>
     </section>
 
     <section>
-        <h2>Saran untuk Pengidap Jantung Koroner</h2>
-        <ul>
-            <li>Konsumsi makanan sehat</li>
-            <li>Rutin periksa kesehatan</li>
-            <li>Kurangi konsumsi garam dan gula</li>
-        </ul>
+        <h2>Saran untuk Penderita</h2>
+        <p>Hindari stres, konsumsi obat sesuai resep dokter, dan lakukan kontrol rutin.</p>
     </section>
 
     <section>
-        <h2>Makanan yang Boleh dan Tidak Boleh</h2>
+        <h2>Makanan yang Dianjurkan dan Dilarang</h2>
         <table>
             <tr>
-                <th>Makanan yang Boleh</th>
-                <th>Makanan yang Tidak Boleh</th>
+                <th>Makanan Dianjurkan</th>
+                <th>Makanan Dilarang</th>
             </tr>
             <tr>
-                <td>Sayuran hijau</td>
-                <td>Makanan cepat saji</td>
-            </tr>
-            <tr>
-                <td>Ikan berlemak sehat</td>
-                <td>Daging merah berlemak</td>
-            </tr>
-            <tr>
-                <td>Buah-buahan</td>
-                <td>Minuman bersoda</td>
+                <td>Sayuran hijau, ikan, buah-buahan</td>
+                <td>Gorengan, makanan tinggi gula, makanan berlemak</td>
             </tr>
         </table>
     </section>
 
-    <section>
+    <button id="showAnggota">Tampilkan Anggota Kelompok</button>
+    <section id="anggotaSection" style="display: none;">
         <h2>Anggota Kelompok</h2>
-        <img src="logo-kelompok.png" alt="Logo Kelompok" width="100">
-        <table>
-            <tr>
-                <th>Nama</th>
-                <th>NIM</th>
-            </tr>
-            <tr>
-                <td>Angga Faksi J</td>
-                <td>4338114401230090</td>
-            </tr>
-            <tr>
-                <td>Intan Novitasari</td>
-                <td>4338114401230047</td>
-            </tr>
-            <tr>
-                <td>Nabila Alia</td>
-                <td>4338114401230007</td>
-            </tr>
-            <tr>
-                <td>Yunisa Yaumi N.A</td>
-                <td>4338114401230089</td>
-            </tr>
-            <tr>
-                <td>Zahwa Azzahra</td>
-                <td>4338114401230061</td>
-            </tr>
-        </table>
+        <ul>
+            <li>Angga Faksi J (4338114401230090)</li>
+            <li>Intan Novitasari (4338114401230047)</li>
+            <li>Nabila Alia (4338114401230007)</li>
+            <li>Yunisa Yaumi N.A (4338114401230089)</li>
+            <li>Zahwa Azzahra (4338114401230061)</li>
+        </ul>
     </section>
 
     <footer>
-        <h2>Referensi</h2>
-        <ul>
-            <li><a href="https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)" style="color: white;">WHO - Penyakit Kardiovaskular</a></li>
-            <li><a href="https://www.alodokter.com/penyakit-jantung-koroner" style="color: white;">Alodokter - Jantung Koroner</a></li>
-            <li><a href="https://www.halodoc.com/artikel/penyebab-dan-gejala-jantung-koroner" style="color: white;">Halodoc - Penyebab & Gejala Jantung Koroner</a></li>
-        </ul>
+        <p>&copy; 2025 Informasi Jantung Koroner</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
